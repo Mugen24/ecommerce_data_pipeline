@@ -49,6 +49,12 @@
 - [] Sumit the test by attaching your github repository url
 
 ## Running
+
+source utils.sh
+run 
+/src/main.py
+
+
 ### Web-interface 
 ## User login:
 localhost:8080
@@ -68,3 +74,4 @@ password: airflow
 - S3 
 - Glue ATL
 - Redshift
+- Infrastucture as Code
