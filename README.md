@@ -56,3 +56,9 @@
 - docker compose down --volumes --remove-orphans
 
 - docker compose up
+
+
+## Technology 
+- S3 
+- Glue ATL
+- Redshift
