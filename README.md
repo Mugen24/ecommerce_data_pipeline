@@ -49,6 +49,12 @@
 - [] Sumit the test by attaching your github repository url
 
 ## Running
+### Web-interface 
+## User login:
+localhost:8080
+username: airflow
+password: airflow
+
 ### Initialising database
 - docker compose up airflow-init
 
