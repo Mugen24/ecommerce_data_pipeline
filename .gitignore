@@ -11,4 +11,4 @@ bin/
 include/
 lib/
 lib64/
-
+terraform_configs/.terraform/
