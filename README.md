@@ -91,8 +91,10 @@ pip3 install -r requirement.txt
     start
   ```
 - .env
+  ```bash
   AWS_ACCESS_KEY_ID=
   AWS_SECRET_ACCESS_KEY=
+  ```
 
 
 ### Web-interface 
