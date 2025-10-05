@@ -18,7 +18,7 @@
     devShells."${system}".default = pkgs.mkShell {
       packages = with pkgs; [
         terraform
-        awscli
+        # awscli
       ];
       shellHook = ''
         export DEBUG=1

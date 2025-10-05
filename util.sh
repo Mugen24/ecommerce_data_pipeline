@@ -14,11 +14,12 @@ function setup {
 }
 
 function start {
-    # venv_file="bin/activate"
-    # if [ -f "${venv_file}" ]
-    # then
-    #     source $venv_file
-    # fi
+    # nix develop -c $SHELL &>/dev/null
+    venv_file="bin/activate"
+    if [ -f "${venv_file}" ]
+     then
+         source $venv_file
+    fi
     
     # Export .env file as variable 
     # Sets up aws perm
